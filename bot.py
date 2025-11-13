@@ -136,7 +136,7 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # --- Запуск приложения ---
 def main():
-    app = Application.builder().token("ВАШ_ТОКЕН_БОТА").build()
+    app = Application.builder().token("8541064492:AAGNlTCpppWfymS6TpthQS7sWYMqK4QYCEI").build()
 
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("help", help_command))
